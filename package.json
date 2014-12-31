@@ -1,0 +1,29 @@
+{
+  "name": "geojson-pick",
+  "version": "1.0.0",
+  "description": "pick properties from geojson files",
+  "main": "index.js",
+  "bin": {
+      "geojson-pick": "geojson-pick"
+  },
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "keywords": [
+    "geojson",
+    "pick"
+  ],
+  "author": "Tom MacWright",
+  "license": "ISC",
+  "dependencies": {
+    "101": "^0.8.0",
+    "geojson-stream": "0.0.0",
+    "minimist": "^1.1.0",
+    "stream-combiner": "^0.2.1",
+    "through": "^2.3.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tmcw/geojson-pick.git"
+  }
+}

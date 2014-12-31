@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+var pick = require('./'),
+    argv = require('minimist')(process.argv.slice(2));
+
+process.stdin
+    .pipe(pick(argv._))
+    .pipe(process.stdout);
