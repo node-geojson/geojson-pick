@@ -1,5 +1,7 @@
 # geojson-pick
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tmcw/geojson-pick.svg)](https://greenkeeper.io/)
+
 Pick properties from features in a GeoJSON FeatureCollection.
 
 ## install
