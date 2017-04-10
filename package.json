@@ -16,8 +16,8 @@
   "author": "Tom MacWright",
   "license": "ISC",
   "dependencies": {
-    "101": "^0.8.0",
-    "geojson-stream": "0.0.0",
+    "101": "^1.6.2",
+    "geojson-stream": "0.0.1",
     "minimist": "^1.1.0",
     "stream-combiner": "^0.2.1",
     "through": "^2.3.6"
